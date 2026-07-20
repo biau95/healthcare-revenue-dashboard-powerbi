@@ -23,7 +23,7 @@ The project leverages a **Star Schema** architecture to ensure optimal reporting
 * **`dim_Kliniki`** – Dimension table with geographic metadata, regional managers, and clinic info.
 * **`dim_Kalendarz`** – Custom DAX Date dimension enabling time-intelligence calculations.
 
-![Data Model Schema](images/model_schema.png) *(Add your model screenshot here)*
+![Data Model Schema](images/model_schema.png)
 
 ---
 
@@ -64,12 +64,13 @@ DIVIDE(
     0)
 ```
 
-🛠️ Tech Stack & Methodology
-ETL & Data Transformation: Power Query (M Language) – handled decimal formatting, header promotion, custom net/margin calculations, and table merges.
-Data Modeling: Power BI Desktop (Star Schema, Relationship Cardinality 1:*, Single-direction filtering).
-Calculations: DAX (Time Intelligence, Explicit Measures, Context Modification).
-Visualization: Conditional Formatting (Heatmaps), Slicers, Custom KPI Cards, and Dynamic Line Charts.
-Source Data: Google Sheets / CSV.)
+## 🛠️ Tech Stack & Methodology
+
+* **ETL & Data Transformation:** Power Query (M Language) – handled regional decimal formatting, header promotion, custom net/margin calculations, and table merges.
+* **Data Modeling:** Power BI Desktop (`Star Schema`, Relationship Cardinality `1:*`, Single-direction filtering).
+* **Calculations:** DAX (Time Intelligence, Explicit Measures, Context Modification via `CALCULATE`).
+* **Visualization:** Conditional Formatting (Heatmaps), Interactive Slicers, Custom KPI Cards, and Dynamic Line Charts.
+* **Source Data:** Google Sheets / CSV.
 
 ## 🚀 How to Run
 1. Download the `.pbix` file from this repository.
