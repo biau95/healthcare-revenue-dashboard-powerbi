@@ -31,7 +31,7 @@ The project leverages a **Star Schema** architecture to ensure optimal reporting
 
 | Executive Overview | Matrix View |
 | :---: | :---: |
-| ![Dashboard Overview](images/dashboard_main.png) | ![Matrix Heatmap](images/matrix_view.png) |
+| ![Dashboard Overview](images/dashboard.png) | ![Matrix Heatmap](images/matrix_view.png) |
 
 ---
 
